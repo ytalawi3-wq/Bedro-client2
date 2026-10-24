@@ -1,0 +1,7 @@
+{
+  "required": false,
+  "package": "com.bedro.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["XRayMixin"],
+  "injectors": { "defaultRequire": 0 }
+}

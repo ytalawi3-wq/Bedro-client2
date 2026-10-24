@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "bedro",
+  "version": "${version}",
+  "name": "Bedro Client",
+  "description": "Bedro Client - utility client for singleplayer, anarchy and private servers. Press P to open the menu.",
+  "authors": ["Bedro"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.bedro.BedroClient"]
+  },
+  "mixins": ["bedro.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
